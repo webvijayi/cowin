@@ -2,6 +2,7 @@ import axios from 'axios';
 import { Observable } from 'rxjs';
 import CryptoJS from 'crypto-js';
 const apipath = `https://cdn-api.co-vin.in/api`;
+// eslint-disable-next-line
 const testPath = 'https://api.demo.co-vin.in/api'
 const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin`
 const zurl = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict`
