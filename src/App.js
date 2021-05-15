@@ -37,7 +37,7 @@ const promosg = {
   text: 'Use this link to track vaccine availability and automatically book a slot for you and your family.',
   title: 'Automated vaccine booking and availability tracking',
   tags: ['covid19vaccines', 'covid19help', 'vaccination2021', 'covid19india'],
-  url: window.location.href.indexOf('localhost') ? 'https://yashwanthm.github.io/cowin-vaccine-booking/' : window.location.href
+  url: window.location.href.indexOf('localhost') ? 'https://cowinbook.netlify.app/' : window.location.href
 }
 
 const metas = document.getElementsByTagName("meta");
@@ -674,7 +674,7 @@ class App extends React.Component{
             will speak out for any inputs(OTP and Captcha) required. For more
             information, please see the{" "}
             <a
-              href="https://github.com/yashwanthm/cowin-vaccine-booking/wiki/Usage-Guide"
+              href="http://cowinbook.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -696,7 +696,7 @@ class App extends React.Component{
             <b>
               This app now{" "}
               <a
-                href="https://github.com/yashwanthm/cowin-vaccine-booking/issues/4"
+                href="http://cowinbook.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
